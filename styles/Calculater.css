@@ -55,11 +55,18 @@
     width: 82px;
     height: 82px;
     border-radius: 82px;
-    margin-left: 25px; /* Adjust the margin to create space between buttons */
+    margin-left: 25px; 
     margin-top: 3%;
     font-size: 40px;
     font-weight: bold;
+    transition: background-color 0.3s ease; /* Add transition for background color */
 }
+
+
+#keys button:active {
+    background-color: rgb(105, 105, 105); /* Change background color when button is pressed */
+}
+
 
 
 
