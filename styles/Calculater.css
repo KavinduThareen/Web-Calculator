@@ -41,6 +41,8 @@
     margin-left: 1%;
     position: fixed;
     border-color: transparent; /* Hide border color */
+    font-size: 70px;
+    color: white;
 }
 
 #keys{
